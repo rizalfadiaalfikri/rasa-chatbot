@@ -1,0 +1,5 @@
+# run rasa
+rasa run -m models --enable-api
+
+# run ngrok server
+ngrok http 5005
